@@ -128,6 +128,7 @@ header{
 .Product-section{
     max-width: 1250px;
     margin: 0 auto;
+    margin-top: 40px;
 }
 .grid-container{
     /* min-width: 400px; */
