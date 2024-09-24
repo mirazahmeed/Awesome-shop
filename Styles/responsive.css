@@ -1,0 +1,38 @@
+@media screen and (max-width: 676px){
+    .nav-section{
+        flex-direction: column;
+        align-items: center;
+        height: 350px;
+    }
+    .nav-section .nav-container{
+        justify-content: center;
+    }
+    .item-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .item-container div a .login-btn{
+        margin: 20px;
+    }
+    .banner-section{
+        flex-direction: column;
+        max-width: 90%;
+    }
+    .text-container{
+        width: 90%;
+        margin: 0% auto;
+    }
+    .banner-image-container{
+        width: 90%;
+        margin: 0% auto;
+        order: -1;
+    }
+    /* products */
+    .Product-section{
+        max-width: 90%;
+
+    }
+    .grid-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
